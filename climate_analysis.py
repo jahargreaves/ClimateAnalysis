@@ -1,6 +1,7 @@
 import sys
 import temp_conversion
 import signal
+"""Climate Analysis Tools"""
 signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
 script = sys.argv[0]
